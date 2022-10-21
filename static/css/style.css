@@ -1,0 +1,81 @@
+body {
+    margin: auto;
+}
+
+header {
+    height: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: darkslategray;
+}
+
+div#nav {
+    width: 70%;
+    margin: auto;
+}
+
+div#nav > a > img {
+    float: left;
+    width: 40px;
+}
+
+div#nav ul {
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 0;
+    padding: 0;
+    height: 37px;
+}
+
+div#nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+div#nav a {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+div#nav a:link {
+    color: lightgray;
+}
+
+div#nav a:visited {
+    color: lightgray;
+}
+
+div#nav a:hover {
+    color: whitesmoke;
+}
+
+div#nav > div {
+    float: right;
+    margin-top: 2px;
+}
+
+input#search {
+    height: 30px;
+    border-radius: 10px;
+}
+
+input#search:visited {
+    width: 200px;
+}
+
+input#search ~ label > button {
+    width: 50px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 10px;
+    background-color: #0e85f6;
+}
+
+input#search ~ label > button:active {
+    color: white;
+    background-color: #0958a4;
+}

@@ -5,6 +5,7 @@
   <title>博客首页</title>
   
   <link href="static/css/style.css" rel="stylesheet">
+  <link href="static/css/content.css" rel="stylesheet">
 
 </head>
 <body>
@@ -13,11 +14,13 @@
     <nav>
       <div id="nav">
         <a href="index.html"><img alt="" src="static/images/篮球.png"></a>
+        <!-- 导航区 -->
         <ul>
           <li><a href="#">编程</a></li>
           <li><a href="#">算法</a></li>
           <li><a href="#">前端</a></li>
         </ul>
+        <!-- 搜索区 -->
         <div>
           <input id="search" name="search" placeholder="要找什么？" type="text">
           <label for="search">
@@ -27,6 +30,25 @@
       </div>
     </nav>
   </header>
+  
+  <!-- 首页内容 -->
+  <div id="content">
+    <!-- 左侧内容 -->
+    <div class="left">
+      <!-- 轮播图 -->
+      <div class="carousel"></div>
+      <div class="article-list">
+        <div class="article"></div>
+        <div class="article"></div>
+        <div class="article"></div>
+      </div>
+    </div>
+    <!-- 右侧内容 -->
+    <div class="right">
+    
+    </div>
+  </div>
+  
 </body>
 
 <script src="static/js/script.js" type="text/javascript"></script>

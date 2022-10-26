@@ -1,0 +1,40 @@
+div#content {
+    width: 70%;
+    height: 1000px;
+    margin: 10px auto auto auto;
+    /* border: 1px black solid; */
+}
+
+div.left {
+    float: left;
+    width: 70%;
+    height: 1000px;
+    /* border: 1px solid red; */
+}
+
+div.right {
+    float: right;
+    width: 25%;
+    height: 800px;
+    border: 1px solid blue;
+}
+
+div.carousel {
+    width: 100%;
+    height: 300px;
+    border: 1px solid darkturquoise;
+}
+
+div.article-list {
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    /* border: 1px solid darkorange; */
+}
+
+div.article {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    border: 1px solid black;
+}

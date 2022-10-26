@@ -34,7 +34,41 @@ div.article-list {
 
 div.article {
     width: 100%;
-    height: 200px;
+    height: 150px;
     margin-top: 10px;
-    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px #b2b2b2;
+}
+
+/* div.article:hover { */
+/*     background-color: #a8e0e0; */
+/*     box-shadow: 5px 5px 5px gray; */
+
+/* } */
+
+div.article-image {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+div.article-image img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: fill; */
+}
+
+div.article-content {
+    float: right;
+    width: 67%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+div.article-title {
+    font-size: 25px;
+    font-weight: bold;
 }

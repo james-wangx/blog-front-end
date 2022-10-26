@@ -9,17 +9,17 @@ header {
     background-color: darkslategray;
 }
 
-div#nav {
-    width: 70%;
+#nav {
+    width: 1190px;
     margin: auto;
 }
 
-div#nav > a > img {
+#nav > a > img {
     float: left;
     width: 40px;
 }
 
-div#nav ul {
+#nav ul {
     float: left;
     height: 37px;
     margin-top: 3px;
@@ -27,43 +27,43 @@ div#nav ul {
     padding: 0;
 }
 
-div#nav li {
+#nav li {
     display: inline;
     margin-left: 10px;
 }
 
-div#nav a {
+#nav a {
     font-size: 25px;
     text-decoration: none;
 }
 
-div#nav a:link {
+#nav a:link {
     color: lightgray;
 }
 
-div#nav a:visited {
+#nav a:visited {
     color: lightgray;
 }
 
-div#nav a:hover {
+#nav a:hover {
     color: whitesmoke;
 }
 
-div#nav > div {
+#nav > div {
     float: right;
     margin-top: 2px;
 }
 
-input#search {
+#search {
     height: 30px;
     border-radius: 10px;
 }
 
-input#search:visited {
+#search:visited {
     width: 200px;
 }
 
-input#search ~ label > button {
+#search ~ label > button {
     width: 50px;
     height: 30px;
     margin: 0;
@@ -75,7 +75,7 @@ input#search ~ label > button {
     background-color: #0e85f6;
 }
 
-input#search ~ label > button:active {
+#search ~ label > button:active {
     color: white;
     background-color: #0958a4;
 }

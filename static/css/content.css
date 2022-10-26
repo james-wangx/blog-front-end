@@ -14,7 +14,6 @@
     float: right;
     width: 25%;
     min-height: 800px;
-    /* border: 1px solid blue; */
 }
 
 .carousel {
@@ -36,6 +35,11 @@
     border-radius: 20px;
     background-color: whitesmoke;
     box-shadow: 5px 5px 5px #b2b2b2;
+}
+
+.article:hover {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
 }
 
 .article-image {
@@ -84,12 +88,12 @@
     box-shadow: 0 0 10px #b2b2b2;
 }
 
-.hot-article div {
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
+.right-div {
     font-size: 20px;
     font-weight: bold;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
     /* padding-right: 10px; */
     /* padding-left: 10px; */
     border-bottom: 1px solid black;
@@ -105,12 +109,11 @@
 
 .hot-article li {
     font-size: 18px;
-    height: 35px;
-    /* margin-top: 5px; */
     line-height: 35px;
+    height: 35px;
     padding-left: 10px;
     list-style: none;
-    border-top: 1px solid gray;
+    border-top: 1px dashed gray;
 }
 
 .hot-article a {
@@ -127,5 +130,39 @@
 
 .hot-article a:hover {
     color: #0958a4;
+}
+
+.article-label {
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px #b2b2b2;
+}
+
+.article-label span {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.article-label span:hover {
+    background-color: #359d4c !important;
+    transition: background-color .5s ease-out, color .5s;
+    color: white;
+}
+
+.article-label a {
+    text-decoration: none;
+    /* 强制继承 span 的颜色 */
+    color: inherit !important;
+}
+
+.article-label a:link {
+    color: black;
+}
+
+.article-label a:visited {
+    color: black;
 }
 

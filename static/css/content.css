@@ -123,6 +123,10 @@
     border-top: 1px dashed gray;
 }
 
+.hot-article li:first-child {
+    border-top: none;
+}
+
 .hot-article a {
     text-decoration: none;
 }
@@ -160,7 +164,7 @@
 
 .labels span:hover {
     color: white;
-    background-color: #359d4c !important;
+    background-color: dodgerblue !important;
 }
 
 .labels a {

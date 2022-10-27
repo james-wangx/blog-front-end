@@ -6,6 +6,7 @@ body {
 header {
     /* 固定导航栏 */
     position: sticky;
+    z-index: 10;
     top: 0;
     height: 40px;
     padding-top: 8px;
@@ -13,7 +14,6 @@ header {
     border-top: 3px solid dodgerblue;
     background-color: white;
     box-shadow: 0 2px 2px gainsboro;
-    z-index: 10;
 }
 
 #nav {
@@ -59,7 +59,10 @@ header {
 
 #nav > div {
     float: right;
-    margin-top: 4px;
+}
+
+.input {
+    float: left;
 }
 
 #search {
@@ -78,4 +81,23 @@ header {
     width: 200px;
     outline: none;
     box-shadow: 0 0 5px dodgerblue;
+}
+
+.button {
+    float: right;
+    margin-left: 10px;
+}
+
+.button button {
+    font-size: 17px;
+    padding: 4px 6px 4px 6px;
+    border: none;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.button button:active {
+    box-shadow: 0 0 5px mediumblue;
+    transform: scale(1.1);
 }

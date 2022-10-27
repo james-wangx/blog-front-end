@@ -29,7 +29,6 @@ header {
 #nav ul {
     float: left;
     height: 40px;
-    /* margin-top: 3px; */
     margin: 0;
     padding: 0;
 }
@@ -91,20 +90,90 @@ header {
 .button button {
     font-size: 17px;
     padding: 4px 6px 4px 6px;
+    color: white;
     border: none;
     border-radius: 10px;
     background-color: dodgerblue;
-    color: white;
 }
 
 .button button:active {
-    box-shadow: 0 0 5px mediumblue;
     transform: scale(1.1);
+    box-shadow: 0 0 5px mediumblue;
 }
 
 footer {
-    height: 200px;
     margin-top: 20px;
     background-color: white;
     box-shadow: 0 -2px 2px gainsboro;
+}
+
+.footer {
+    width: 1190px;
+    margin: auto;
+}
+
+.find {
+    float: left;
+    width: 595px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.find div {
+    width: 100px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info div hr {
+    width: 100px;
+}
+
+.info a {
+    text-decoration: none;
+}
+
+.info a:link {
+    color: black;
+}
+
+.info a:visited {
+    color: black;
+}
+
+.find ul {
+    width: 100px;
+    margin: auto;
+    padding: 0;
+}
+
+.find li {
+    display: block;
+}
+
+.connect {
+    float: right;
+    width: 595px;
+    margin-top: 20px;
+}
+
+.connect div {
+    width: 100px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wechat img {
+    height: 100px;
+}
+
+hr {
+    width: 1190px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 20px;
 }

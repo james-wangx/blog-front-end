@@ -101,3 +101,10 @@ header {
     box-shadow: 0 0 5px mediumblue;
     transform: scale(1.1);
 }
+
+footer {
+    height: 200px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 -2px 2px gainsboro;
+}

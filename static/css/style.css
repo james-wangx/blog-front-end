@@ -4,12 +4,16 @@ body {
 }
 
 header {
+    /* 固定导航栏 */
+    position: sticky;
+    top: 0;
     height: 40px;
     padding-top: 8px;
     padding-bottom: 8px;
-    background-color: white;
     border-top: 3px solid dodgerblue;
-    box-shadow: 0 5px 5px gainsboro;
+    background-color: white;
+    box-shadow: 0 2px 2px gainsboro;
+    z-index: 10;
 }
 
 #nav {
@@ -37,8 +41,8 @@ header {
 
 #nav a {
     font-size: 22px;
-    text-decoration: none;
     line-height: 40px;
+    text-decoration: none;
 }
 
 #nav a:link {
@@ -62,11 +66,11 @@ header {
     width: 140px;
     height: 30px;
     margin: auto;
-    border-radius: 10px;
-    padding-left: 4px;
     padding-right: 4px;
+    padding-left: 4px;
     transition: width .5s ease-in-out;
     border: 1px solid #d6deee;
+    border-radius: 10px;
     box-shadow: 0 0 5px #d6deee;
 }
 

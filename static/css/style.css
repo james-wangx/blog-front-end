@@ -16,6 +16,10 @@ header {
     box-shadow: 0 2px 2px gainsboro;
 }
 
+a {
+    text-decoration: none;
+}
+
 #nav {
     width: 1190px;
     margin: auto;
@@ -41,7 +45,6 @@ header {
 #nav a {
     font-size: 22px;
     line-height: 40px;
-    text-decoration: none;
 }
 
 #nav a:link {
@@ -102,7 +105,7 @@ header {
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: white;
     box-shadow: 0 -2px 2px gainsboro;
 }
@@ -110,70 +113,17 @@ footer {
 .footer {
     width: 1190px;
     margin: auto;
-}
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
-.find {
-    float: left;
-    width: 595px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.find div {
-    width: 100px;
-    margin: auto;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.info div hr {
-    width: 100px;
-}
-
-.info a {
-    text-decoration: none;
-}
-
-.info a:link {
-    color: black;
-}
-
-.info a:visited {
-    color: black;
-}
-
-.find ul {
-    width: 100px;
-    margin: auto;
-    padding: 0;
-}
-
-.find li {
-    display: block;
-}
-
-.connect {
-    float: right;
-    width: 595px;
-    margin-top: 20px;
-}
-
-.connect div {
-    width: 100px;
-    margin: auto;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.wechat img {
-    height: 100px;
 }
 
 hr {
     width: 1190px;
 }
 
-.copyright {
-    text-align: center;
-    padding-bottom: 20px;
+.href img {
+    width: 20px;
+    height: 20px;
 }

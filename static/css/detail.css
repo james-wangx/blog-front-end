@@ -1,0 +1,71 @@
+p {
+    margin-bottom: 0;
+}
+
+h1, h2 {
+    margin-bottom: 0;
+    border-bottom: 1px solid gainsboro;
+}
+
+#condom {
+    overflow: hidden;
+    width: 1200px;
+    margin: auto;
+}
+
+#detail {
+    width: 1190px;
+    margin: 10px auto auto auto;
+}
+
+#detail a:link {
+    color: dodgerblue;
+}
+
+#detail a:visited {
+    color: lightblue;
+}
+
+.left {
+    float: left;
+    overflow: hidden;
+    width: 70%;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px gainsboro;
+}
+
+.right {
+    float: right;
+    width: 25%;
+}
+
+.catalog {
+    position: fixed;
+    top: 69px;
+    width: 277.5px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px gainsboro;
+}
+
+.catalog div {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid gainsboro;
+}
+
+.catalog ul {
+    margin: 0;
+    padding: 0;
+}
+
+.catalog li {
+    display: block;
+    margin-top: 10px;
+}

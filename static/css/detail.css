@@ -14,6 +14,20 @@ h1, h2 {
     border-bottom: 1px solid gainsboro;
 }
 
+blockquote {
+    margin: 0;
+    padding-left: 20px;
+    border-left: 4px solid gainsboro;
+}
+
+blockquote > ul {
+    margin: 0;
+}
+
+blockquote > ul > li {
+    margin-top: 10px;
+}
+
 #condom {
     overflow: hidden;
     width: 1200px;
@@ -44,6 +58,7 @@ h1, h2 {
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 0 5px gainsboro;
+    padding-bottom: 10px;
 }
 
 .right {

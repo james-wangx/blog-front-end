@@ -1,3 +1,10 @@
+html {
+    /* 设置滚动条离顶部的距离，防止锚点定位被导航栏遮挡 */
+    scroll-padding-top: 60px;
+    /* 锚点平滑滚动 */
+    scroll-behavior: smooth
+}
+
 p {
     margin-bottom: 0;
 }
@@ -11,6 +18,7 @@ h1, h2 {
     overflow: hidden;
     width: 1200px;
     margin: auto;
+    padding-bottom: 10px;
 }
 
 #detail {

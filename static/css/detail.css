@@ -40,12 +40,20 @@ blockquote > ul > li {
     margin: 10px auto auto auto;
 }
 
+#detail a {
+    transition: color .5s ease-in-out;
+}
+
 #detail a:link {
     color: dodgerblue;
 }
 
 #detail a:visited {
-    color: lightblue;
+    color: dodgerblue;
+}
+
+#detail a:hover {
+    color: mediumblue;
 }
 
 .left {
@@ -97,13 +105,17 @@ blockquote > ul > li {
     position: fixed;
     z-index: 10;
     bottom: 160px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
     transition: background-color .5s ease-in-out, opacity 1s ease-in-out;
+    opacity: 0;
     border: none;
     border-radius: 10px;
     background-color: white;
+    background-image: url("../images/backtop.png");
+    background-size: 30px 30px;
     box-shadow: 0 0 5px gainsboro;
-    opacity: 0;
-    visibility: hidden;
 }
 
 #back-top:hover {

@@ -127,7 +127,7 @@
 }
 
 .hot-article a {
-    text-decoration: none;
+    transition: color .5s ease-in-out;
 }
 
 .hot-article a:link {

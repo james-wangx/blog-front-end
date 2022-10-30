@@ -16,8 +16,23 @@ header {
     box-shadow: 0 2px 2px gainsboro;
 }
 
+button {
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: white;
+    box-shadow: 0 -2px 2px gainsboro;
+    border-bottom: 3px solid dodgerblue;
+}
+
+hr {
+    width: 1190px;
 }
 
 #nav {
@@ -106,23 +121,12 @@ a {
     box-shadow: 0 0 5px mediumblue;
 }
 
-footer {
-    margin-top: 40px;
-    background-color: white;
-    box-shadow: 0 -2px 2px gainsboro;
-}
-
 .footer {
     width: 1190px;
     margin: auto;
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-
-}
-
-hr {
-    width: 1190px;
+    text-align: center;
 }
 
 .href img {

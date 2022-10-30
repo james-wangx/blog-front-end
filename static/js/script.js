@@ -15,21 +15,16 @@ function randomColor() {
 
 function backTop() {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
-    buttonTop.style.display = "hidden";
-    buttonTop.style.opacity = "0";
-    visibility = false;
 }
 
 window.addEventListener('scroll', function () {
     if (!visibility) {
         if (document.documentElement.scrollTop > 500) {
-            buttonTop.style.visibility = "visible";
             buttonTop.style.opacity = "1";
             visibility = true;
         }
     } else {
         if (document.documentElement.scrollTop < 500) {
-            buttonTop.style.display = "hidden";
             buttonTop.style.opacity = "0";
             visibility = false;
         }

@@ -54,11 +54,11 @@ blockquote > ul > li {
     width: 70%;
     margin-top: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 0 5px gainsboro;
-    padding-bottom: 10px;
 }
 
 .right {
@@ -91,4 +91,25 @@ blockquote > ul > li {
 .catalog li {
     display: block;
     margin-top: 10px;
+}
+
+#back-top {
+    position: fixed;
+    z-index: 10;
+    bottom: 160px;
+    transition: background-color .5s ease-in-out, opacity 1s ease-in-out;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px gainsboro;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#back-top:hover {
+    background-color: gainsboro;
+}
+
+#back-top img {
+    width: 30px;
 }

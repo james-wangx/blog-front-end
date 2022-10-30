@@ -43,111 +43,112 @@
     <!-- 文章详情 -->
     <div id="detail">
       <div class="left">
-        <h1 id='内存颗粒封装技术'>内存颗粒封装技术</h1>
-        <!-- <hr> -->
-        <h2 id='预备知识'>预备知识</h2>
-        <p><strong>集成电路封装</strong>（英语：<strong>integrated circuit
-          packaging</strong>），简称<strong>封装</strong>，是<a
-            href='https://zh.wikipedia.org/wiki/半导体器件制造'>半导体器件制造</a>的最后阶段，之后将进行集成电路性能测试。器件的核心<a
-            href='https://zh.wikipedia.org/wiki/晶粒'>晶粒</a>被封装在一个支撑物之内，这个封装可以防止物理损坏（如碰撞和划伤）以及化学腐蚀，并提供对外连接的<a
-            href='https://zh.wikipedia.org/wiki/引脚'>引脚</a>，这样就便于将芯片安装在电路系统里。</p>
-        <p>前苏联 1977 年制造的集成电路 K1ZhG453</p>
-        <p><img src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229191122351.png"
-                referrerpolicy="no-referrer" alt="image-20211229191122351"></p>
-        <p>内存颗粒（芯片）封装是集成电路封装的一类。内存颗粒封装是内存芯片制造工艺的最后一步，也是最关键的一步。采用不同封装技术的内存条，其性能上会存在较大差距。衡量封装技术先进与否的重要指标是<code>芯片面积与封装面积之比</code>，这个比值越接近1越好。内存颗粒封装技术主要有DIP，TSOP，BGA，CSP。
-        </p>
-        <h2 id='dip封装'>DIP封装</h2>
-        <p><strong>双列直插封装</strong>（英语：<strong>dual in-line package</strong>）
-          也称为<strong>DIP封装</strong>或<strong>DIP包装</strong>，简称为<strong>DIP</strong>或<strong>DIL</strong>，是一种<a
-              href='https://zh.wikipedia.org/wiki/積體電路'>集成电路</a>的<a
-              href='https://zh.wikipedia.org/wiki/積體電路封裝'>封装</a>方式，集成电路的外形为长方形，在其两侧则有两排平行的金属<a
-              href='https://zh.wikipedia.org/wiki/引脚'>引脚</a>，称为<a
-              href='https://zh.wikipedia.org/w/index.php?title=排針&amp;action=edit&amp;redlink=1'>排针</a>。DIP包装的元件可以焊接在<a
-              href='https://zh.wikipedia.org/wiki/印刷電路板'>印刷电路板</a>电镀的贯穿孔中，或是插入在DIP插座（socket）上。
-        </p>
-        <p>DIP包装的元件一般会简称为<strong>DIP*n*</strong>，其中<em>n</em>是引脚的个数，例如十四针的集成电路即称为DIP14，下图即为DIP14的集成电路。
-        </p>
-        <p><img src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229200851921.png"
-                alt="image-20211229200851921" style="zoom: 33%;"/></p>
-        <p>双列直插封装芯片的剖面图</p>
-        <p><img src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229201307091.png"
-                alt="image-20211229201307091" style="zoom: 33%;"/></p>
-        <p>
-          上个世纪的70年代，芯片封装基本都采用DIP。DIP封装形式封装效率是很低的，其芯片面积和封装面积之比为1：1.86，这样封装产品的面积较大，内存条PCB板的面积是固定的，封装面积越大在内存上安装芯片的数量就越少，内存条容量也就越小。同时较大的封装面积对<a
-            href='https://baike.baidu.com/item/内存频率'>内存频率</a>、传输速率、电器性能的提升都有影响。</p>
-        <h2 id='tsop封装'>TSOP封装</h2>
-        <p>薄型小尺寸封装（英语：thin small outline package）这种封装很薄（约 1 毫米）并且具有紧密的引线间距（低至 0.5
-          毫米）。TSOP技术是在芯片的周围做出<a href='https://baike.baidu.com/item/引脚'>引脚</a>，采用SMT技术（表面安装技术）直接附着在PCB板的表面。
-        </p>
-        <p>32个引脚的TSOP封装芯片</p>
-        <p><img src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229201714030.png"
-                alt="image-20211229201714030" style="zoom: 33%;"/></p>
-        <p>TSOP I 型：<a href='https://en.wikipedia.org/wiki/Atmel'>Atmel</a> AT29C010A</p>
-        <p><img src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229202608746.png"
-                alt="image-20211229202608746" style="zoom: 50%;"/></p>
-        <p>由于引脚数多且体积小，它们经常用于 RAM 或闪存 IC。在某些应用中，它们正被<a
-            href='https://en.wikipedia.org/wiki/Ball_grid_array'>球栅阵列</a>封装所取代，后者可以实现更高的密度。TSOP除了用于内存封装外，也适合<a
-            href='https://en.wikipedia.org/wiki/Static_random_access_memory'>SRAM</a>、<a
-            href='https://en.wikipedia.org/wiki/Flash_memory'>闪存</a>、<a
-            href='https://en.wikipedia.org/w/index.php?title=FSRAM&amp;action=edit&amp;redlink=1'>FSRAM</a>和<a
-            href='https://en.wikipedia.org/wiki/E2PROM'>E2PROM</a>等。</p>
-        <h2 id='bga封装'>BGA封装</h2>
-        <p><strong>球栅阵列封装</strong>（英语：Ball Grid Array）技术为应用在<a
-            href='https://zh.wikipedia.org/wiki/積體電路'>集成电路</a>上的一种<a
-            href='https://zh.wikipedia.org/wiki/表面黏著技術'>表面黏着封装技术</a>，此技术常用来永久性固定如<a
-            href='https://zh.wikipedia.org/wiki/微處理器'>微处理器</a>之类的装置。</p>
-        <p>一颗Intel嵌入式的Pentium MMX处理器底视图，可见到这些锡球的颗粒</p>
-        <p><img src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229203053307.png"
-                alt="image-20211229203053307" style="zoom:50%;"/></p>
-        <p>BGA封装能提供比其他如<a href='https://zh.wikipedia.org/wiki/雙列直插封裝'>双列直插封装</a>（Dual in-line
-          package）或<a href='https://zh.wikipedia.org/wiki/四側引腳扁平封裝'>四侧引脚扁平封装</a>（Quad Flat
-          Package）所容纳更多的接脚，整个装置的底部表面可全作为接脚使用，而不是只有周围可使用，比起周围限定的封装类型还能具有更短的平均导线长度，以具备更佳的高速效能。
-        </p>
-        <p>焊接BGA封装的装置需要精准的控制，且通常是由自动化程序的工厂设备来完成的。BGA封装装置并不适用于插槽固定方式。</p>
-        <p>在移除集成电路芯片后，印刷电路板上的焊球网格阵列。</p>
-        <p><img src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229204119373.png"
-                alt="image-20211229204119373" style="zoom: 67%;"/></p>
-        <p>BGA封装技术是从<a href='https://zh.wikipedia.org/wiki/插针网格阵列'>插针网格阵列</a>（pin grid array;
-          PGA）改良而来，是一种将某个表面以格状排列的方式覆满（或部分覆满）引脚的封装法，在运作时即可将电子讯号从集成电路上传导至其所在的<a
-              href='https://zh.wikipedia.org/wiki/印刷電路板'>印刷电路板</a>（PCB）。在BGA封装下，在封装底部处引脚是由锡球所取代，每个原本都是一粒小小的锡球固定其上。
-        </p>
-        <p><em>组装在</em><a href='https://zh.wikipedia.org/wiki/印刷電路板'>PCB</a><em>上的BGA</em> <a
-            href='https://zh.wikipedia.org/wiki/積體電路'>IC</a></p>
-        <p><img src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229203914882.png"
-                alt="image-20211229203914882" style="zoom:50%;"/></p>
-        <p><img src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229203947059.png"
-                alt="image-20211229203947059" style="zoom:50%;"/></p>
-        <p>这些锡球可以手动或透过自动化机器配置，并透过助焊剂将它们定位。装置以表面贴焊技术固定在PCB上时，底部锡球的排列恰好对应到板子上铜箔的位置。产线接着会将其加热，无论是放入<a
-            href='https://zh.wikipedia.org/w/index.php?title=廻焊爐&amp;action=edit&amp;redlink=1'>回焊炉</a> (reflow
-          oven) 或<a href='https://zh.wikipedia.org/wiki/红外加热器'>红外线炉</a>，以将锡球熔化。<a
-              href='https://zh.wikipedia.org/wiki/表面張力'>表面张力</a>会使得融化的锡球撑住封装点并对齐到电路板上，在正确的间隔距离下，当锡球冷却并固定后，形成的焊接接点即可连接装置与PCB。
-        </p>
-        <h2 id='csp封装'>CSP封装</h2>
-        <p>芯片级封装（英语：Chip Scale Package）是最新一代的<a href='https://baike.baidu.com/item/内存芯片'>内存芯片</a>封装技术，其技术性能又有了新的提升。CSP封装可以让芯片面积与封装面积之比<code>超过1:1.14</code>，已经相当接近1:1的理想情况，绝对尺寸也仅有32平方毫米，约为普通的BGA的1/3，仅仅相当于TSOP内存芯片面积的1/6。与BGA封装相比，同等空间下CSP封装可以将存储容量提高三倍。
-        </p>
-        <p>WL-CSP封装设备，与美国一分钱币的对照。采用SOT - 23器件进行比较</p>
-        <p><img src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229204747550.png"
-                alt="image-20211229204747550" style="zoom: 67%;"/></p>
-        <blockquote><p>参考链接</p>
-          <ul>
-            <li><a
-                href='https://zh.wikipedia.org/zh-cn/%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E5%B0%81%E8%A3%85'>集成电路封装</a>
-            </li>
-            <li><a
-                href='https://zh.wikipedia.org/zh-cn/%E9%9B%99%E5%88%97%E7%9B%B4%E6%8F%92%E5%B0%81%E8%A3%9D'>双列直插封装</a>
-            </li>
-            <li><a href='https://en.wikipedia.org/wiki/Thin_small_outline_package'>Thin small outline package</a></li>
-            <li><a
-                href='https://zh.wikipedia.org/zh-cn/%E7%90%83%E6%9F%B5%E9%99%A3%E5%88%97%E5%B0%81%E8%A3%9D'>球栅阵列封装</a>
-            </li>
-            <li><a
-                href='https://zh.wikipedia.org/zh-cn/%E6%99%B6%E7%89%87%E5%B0%BA%E5%AF%B8%E5%B0%81%E8%A3%9D'>芯片尺寸封装</a>
-            </li>
-            <li><a href='https://baike.baidu.com/item/%E5%86%85%E5%AD%98%E5%B0%81%E8%A3%85/3644494'>内存封装</a></li>
-            <li><a href='http://www.noobyard.com/article/p-nxdsfexa-er.html'>芯片封装技术</a></li>
-        
-          </ul>
-        </blockquote>
+        <div class="article">
+          <h1 id='内存颗粒封装技术'>内存颗粒封装技术</h1>
+          <!-- <hr> -->
+          <h2 id='预备知识'>预备知识</h2>
+          <p><strong>集成电路封装</strong>（英语：<strong>integrated circuit
+            packaging</strong>），简称<strong>封装</strong>，是<a
+              href='https://zh.wikipedia.org/wiki/半导体器件制造'>半导体器件制造</a>的最后阶段，之后将进行集成电路性能测试。器件的核心<a
+              href='https://zh.wikipedia.org/wiki/晶粒'>晶粒</a>被封装在一个支撑物之内，这个封装可以防止物理损坏（如碰撞和划伤）以及化学腐蚀，并提供对外连接的<a
+              href='https://zh.wikipedia.org/wiki/引脚'>引脚</a>，这样就便于将芯片安装在电路系统里。</p>
+          <p>前苏联 1977 年制造的集成电路 K1ZhG453</p>
+          <p><img alt="image-20211229191122351"
+                  referrerpolicy="no-referrer" src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229191122351.png"></p>
+          <p>内存颗粒（芯片）封装是集成电路封装的一类。内存颗粒封装是内存芯片制造工艺的最后一步，也是最关键的一步。采用不同封装技术的内存条，其性能上会存在较大差距。衡量封装技术先进与否的重要指标是<code>芯片面积与封装面积之比</code>，这个比值越接近1越好。内存颗粒封装技术主要有DIP，TSOP，BGA，CSP。
+          </p>
+          <h2 id='dip封装'>DIP封装</h2>
+          <p><strong>双列直插封装</strong>（英语：<strong>dual in-line package</strong>）
+            也称为<strong>DIP封装</strong>或<strong>DIP包装</strong>，简称为<strong>DIP</strong>或<strong>DIL</strong>，是一种<a
+                href='https://zh.wikipedia.org/wiki/積體電路'>集成电路</a>的<a
+                href='https://zh.wikipedia.org/wiki/積體電路封裝'>封装</a>方式，集成电路的外形为长方形，在其两侧则有两排平行的金属<a
+                href='https://zh.wikipedia.org/wiki/引脚'>引脚</a>，称为<a
+                href='https://zh.wikipedia.org/w/index.php?title=排針&amp;action=edit&amp;redlink=1'>排针</a>。DIP包装的元件可以焊接在<a
+                href='https://zh.wikipedia.org/wiki/印刷電路板'>印刷电路板</a>电镀的贯穿孔中，或是插入在DIP插座（socket）上。
+          </p>
+          <p>DIP包装的元件一般会简称为<strong>DIP*n*</strong>，其中<em>n</em>是引脚的个数，例如十四针的集成电路即称为DIP14，下图即为DIP14的集成电路。
+          </p>
+          <p><img alt="image-20211229200851921"
+                  src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229200851921.png" style="zoom: 33%;"/></p>
+          <p>双列直插封装芯片的剖面图</p>
+          <p><img alt="image-20211229201307091"
+                  src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229201307091.png" style="zoom: 33%;"/></p>
+          <p>
+            上个世纪的70年代，芯片封装基本都采用DIP。DIP封装形式封装效率是很低的，其芯片面积和封装面积之比为1：1.86，这样封装产品的面积较大，内存条PCB板的面积是固定的，封装面积越大在内存上安装芯片的数量就越少，内存条容量也就越小。同时较大的封装面积对<a
+              href='https://baike.baidu.com/item/内存频率'>内存频率</a>、传输速率、电器性能的提升都有影响。</p>
+          <h2 id='tsop封装'>TSOP封装</h2>
+          <p>薄型小尺寸封装（英语：thin small outline package）这种封装很薄（约 1 毫米）并且具有紧密的引线间距（低至 0.5
+            毫米）。TSOP技术是在芯片的周围做出<a href='https://baike.baidu.com/item/引脚'>引脚</a>，采用SMT技术（表面安装技术）直接附着在PCB板的表面。
+          </p>
+          <p>32个引脚的TSOP封装芯片</p>
+          <p><img alt="image-20211229201714030"
+                  src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229201714030.png" style="zoom: 33%;"/></p>
+          <p>TSOP I 型：<a href='https://en.wikipedia.org/wiki/Atmel'>Atmel</a> AT29C010A</p>
+          <p><img alt="image-20211229202608746"
+                  src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229202608746.png" style="zoom: 50%;"/></p>
+          <p>由于引脚数多且体积小，它们经常用于 RAM 或闪存 IC。在某些应用中，它们正被<a
+              href='https://en.wikipedia.org/wiki/Ball_grid_array'>球栅阵列</a>封装所取代，后者可以实现更高的密度。TSOP除了用于内存封装外，也适合<a
+              href='https://en.wikipedia.org/wiki/Static_random_access_memory'>SRAM</a>、<a
+              href='https://en.wikipedia.org/wiki/Flash_memory'>闪存</a>、<a
+              href='https://en.wikipedia.org/w/index.php?title=FSRAM&amp;action=edit&amp;redlink=1'>FSRAM</a>和<a
+              href='https://en.wikipedia.org/wiki/E2PROM'>E2PROM</a>等。</p>
+          <h2 id='bga封装'>BGA封装</h2>
+          <p><strong>球栅阵列封装</strong>（英语：Ball Grid Array）技术为应用在<a
+              href='https://zh.wikipedia.org/wiki/積體電路'>集成电路</a>上的一种<a
+              href='https://zh.wikipedia.org/wiki/表面黏著技術'>表面黏着封装技术</a>，此技术常用来永久性固定如<a
+              href='https://zh.wikipedia.org/wiki/微處理器'>微处理器</a>之类的装置。</p>
+          <p>一颗Intel嵌入式的Pentium MMX处理器底视图，可见到这些锡球的颗粒</p>
+          <p><img alt="image-20211229203053307"
+                  src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229203053307.png" style="zoom:50%;"/></p>
+          <p>BGA封装能提供比其他如<a href='https://zh.wikipedia.org/wiki/雙列直插封裝'>双列直插封装</a>（Dual in-line
+            package）或<a href='https://zh.wikipedia.org/wiki/四側引腳扁平封裝'>四侧引脚扁平封装</a>（Quad Flat
+            Package）所容纳更多的接脚，整个装置的底部表面可全作为接脚使用，而不是只有周围可使用，比起周围限定的封装类型还能具有更短的平均导线长度，以具备更佳的高速效能。
+          </p>
+          <p>焊接BGA封装的装置需要精准的控制，且通常是由自动化程序的工厂设备来完成的。BGA封装装置并不适用于插槽固定方式。</p>
+          <p>在移除集成电路芯片后，印刷电路板上的焊球网格阵列。</p>
+          <p><img alt="image-20211229204119373"
+                  src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229204119373.png" style="zoom: 67%;"/></p>
+          <p>BGA封装技术是从<a href='https://zh.wikipedia.org/wiki/插针网格阵列'>插针网格阵列</a>（pin grid array;
+            PGA）改良而来，是一种将某个表面以格状排列的方式覆满（或部分覆满）引脚的封装法，在运作时即可将电子讯号从集成电路上传导至其所在的<a
+                href='https://zh.wikipedia.org/wiki/印刷電路板'>印刷电路板</a>（PCB）。在BGA封装下，在封装底部处引脚是由锡球所取代，每个原本都是一粒小小的锡球固定其上。
+          </p>
+          <p><em>组装在</em><a href='https://zh.wikipedia.org/wiki/印刷電路板'>PCB</a><em>上的BGA</em> <a
+              href='https://zh.wikipedia.org/wiki/積體電路'>IC</a></p>
+          <p><img alt="image-20211229203914882"
+                  src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229203914882.png" style="zoom:50%;"/></p>
+          <p><img alt="image-20211229203947059"
+                  src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229203947059.png" style="zoom:50%;"/></p>
+          <p>这些锡球可以手动或透过自动化机器配置，并透过助焊剂将它们定位。装置以表面贴焊技术固定在PCB上时，底部锡球的排列恰好对应到板子上铜箔的位置。产线接着会将其加热，无论是放入<a
+              href='https://zh.wikipedia.org/w/index.php?title=廻焊爐&amp;action=edit&amp;redlink=1'>回焊炉</a> (reflow
+            oven) 或<a href='https://zh.wikipedia.org/wiki/红外加热器'>红外线炉</a>，以将锡球熔化。<a
+                href='https://zh.wikipedia.org/wiki/表面張力'>表面张力</a>会使得融化的锡球撑住封装点并对齐到电路板上，在正确的间隔距离下，当锡球冷却并固定后，形成的焊接接点即可连接装置与PCB。
+          </p>
+          <h2 id='csp封装'>CSP封装</h2>
+          <p>芯片级封装（英语：Chip Scale Package）是最新一代的<a href='https://baike.baidu.com/item/内存芯片'>内存芯片</a>封装技术，其技术性能又有了新的提升。CSP封装可以让芯片面积与封装面积之比<code>超过1:1.14</code>，已经相当接近1:1的理想情况，绝对尺寸也仅有32平方毫米，约为普通的BGA的1/3，仅仅相当于TSOP内存芯片面积的1/6。与BGA封装相比，同等空间下CSP封装可以将存储容量提高三倍。
+          </p>
+          <p>WL-CSP封装设备，与美国一分钱币的对照。采用SOT - 23器件进行比较</p>
+          <p><img alt="image-20211229204747550"
+                  src="https://gitee.com/pineapple-cpp/typora-image/raw/master/2021-12/image-20211229204747550.png" style="zoom: 67%;"/></p>
+          <blockquote><p>参考链接</p>
+            <ul>
+              <li><a
+                  href='https://zh.wikipedia.org/zh-cn/%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E5%B0%81%E8%A3%85'>集成电路封装</a>
+              </li>
+              <li><a
+                  href='https://zh.wikipedia.org/zh-cn/%E9%9B%99%E5%88%97%E7%9B%B4%E6%8F%92%E5%B0%81%E8%A3%9D'>双列直插封装</a>
+              </li>
+              <li><a href='https://en.wikipedia.org/wiki/Thin_small_outline_package'>Thin small outline package</a></li>
+              <li><a
+                  href='https://zh.wikipedia.org/zh-cn/%E7%90%83%E6%9F%B5%E9%99%A3%E5%88%97%E5%B0%81%E8%A3%9D'>球栅阵列封装</a>
+              </li>
+              <li><a
+                  href='https://zh.wikipedia.org/zh-cn/%E6%99%B6%E7%89%87%E5%B0%BA%E5%AF%B8%E5%B0%81%E8%A3%9D'>芯片尺寸封装</a>
+              </li>
+              <li><a href='https://baike.baidu.com/item/%E5%86%85%E5%AD%98%E5%B0%81%E8%A3%85/3644494'>内存封装</a></li>
+              <li><a href='http://www.noobyard.com/article/p-nxdsfexa-er.html'>芯片封装技术</a></li>
+            </ul>
+          </blockquote>
+        </div>
       </div>
       <div class="right">
         <div class="catalog">
@@ -160,6 +161,9 @@
             <li><a href="#csp封装">CSP封装</a></li>
           </ul>
         </div>
+        <button id="back-top" onclick="backTop()">
+          <img alt="回到顶部" src="static/images/backtop.png">
+        </button>
       </div>
     </div>
   </div>
@@ -185,10 +189,12 @@
         网站已运行 365 天，总访问 56411 次
       </div>
       <div class="copyright">
-        Copyright © 2022-2022 codelife.top, All Rights Reserved.
+        Copyright © 2022-2022 by codelife.top. All Rights Reserved.
       </div>
     </div>
   </footer>
 
 </body>
+
+<script src="static/js/script.js"></script>
 </html>

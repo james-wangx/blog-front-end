@@ -1,0 +1,77 @@
+label {
+    width: 67px;
+    float: left;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+input {
+    width: 240px;
+    height: 29px;
+    float: right;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: dodgerblue;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.content {
+    width: 320px;
+    margin: auto;
+}
+
+#title {
+    margin-top: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.code input {
+    float: left;
+    width: 140px;
+    margin-left: 5px;
+}
+
+.code button {
+    width: 90px;
+    height: 35px;
+    float: right;
+}
+
+.form:last-child button {
+    width: 320px;
+    height: 35px;
+}
+
+.register {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.register a {
+    color: dodgerblue;
+    transition: color .5s ease-in-out;
+}
+
+.register a:hover {
+    color: midnightblue;
+}

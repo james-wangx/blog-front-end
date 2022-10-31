@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  
+  <link href="static/images/favicon.ico" rel="icon">
+  <link href="static/css/style.css" rel="stylesheet">
+  <link href="static/css/login.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- 导航栏 -->
+  <header>
+    <nav>
+      <div id="nav">
+        <a href="index.html"><img alt="" src="static/images/code.png"></a>
+        <!-- 导航区 -->
+        <ul>
+          <li><a href="#">编程</a></li>
+          <li><a href="#">算法</a></li>
+          <li><a href="#">前端</a></li>
+          <li><a href="#">网络</a></li>
+        </ul>
+        <div>
+          <!-- 搜索区 -->
+          <div class="input">
+            <input autocomplete="off" id="search" name="search" placeholder="按下 Enter 键搜索" type="text">
+            <label for="search">
+            </label>
+          </div>
+          <div class="button">
+            <button onclick="login()">登录/注册</button>
+          </div>
+          <script>
+            function login() {
+              window.location.href = "login.html";
+            }
+          </script>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- 注册 -->
+  <div class="content">
+    <div id="title">注 册</div>
+    <form method="post">
+      <div class="form">
+        <label for="username">邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱</label>
+        <input autocomplete="off" id="username" name="username" type="text">
+      </div>
+      <div class="form">
+        <label for="password">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</label>
+        <input autocomplete="off" id="password" name="password" type="password">
+      </div>
+      <div class="form">
+        <label for="password2">确认密码</label>
+        <input autocomplete="off" id="password2" name="password2" type="password">
+      </div>
+      <div class="form code">
+        <label for="code">输入验证</label>
+        <input autocomplete="off" id="code" name="code" type="text">
+        <button type="button">获取验证码</button>
+      </div>
+      <div class="form">
+        <button type="submit">注册</button>
+      </div>
+    </form>
+  </div>
+  
+  <!-- 页脚 -->
+  <footer>
+    <div class="footer">
+      <div class="href">
+        <a href="https://github.com/james-wangx">
+          <img alt="GitHub图片" src="static/images/github.png">
+        </a>
+        <a href="https://www.zhihu.com/people/9-18-87-68">
+          <img alt="知乎图片" src="static/images/知乎.png">
+        </a>
+        <a href="https://space.bilibili.com/479143318">
+          <img alt="bilibili图片" src="static/images/bilibili.png">
+        </a>
+        <a href="https://twitter.com/james_wangx">
+          <img alt="twitter图片" src="static/images/twitter.png">
+        </a>
+      </div>
+      <div class="statistics">
+        网站已运行 365 天，总访问 56411 次
+      </div>
+      <div class="copyright">
+        Copyright © 2022-2022 by codelife.top. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

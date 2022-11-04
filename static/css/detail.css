@@ -110,6 +110,8 @@ blockquote > ul > li {
     padding: 0;
     transition: background-color .5s ease-in-out, opacity 1s ease-in-out;
     opacity: 0;
+    visibility: hidden;
+    /* visibility: visible; */
     border: none;
     border-radius: 10px;
     background-color: white;

@@ -1,6 +1,3 @@
-let buttonTop = document.getElementById("back-top");
-let visibility = false;
-
 /**
  * 为标签生成随机颜色
  */
@@ -12,23 +9,5 @@ function randomColor() {
         label.style.backgroundColor = colorList[Math.floor(Math.random() * colorList.length)];
     }
 }
-
-function backTop() {
-    document.body.scrollTop = document.documentElement.scrollTop = 0;
-}
-
-window.addEventListener('scroll', function () {
-    if (!visibility) {
-        if (document.documentElement.scrollTop > 500) {
-            buttonTop.style.opacity = "1";
-            visibility = true;
-        }
-    } else {
-        if (document.documentElement.scrollTop < 500) {
-            buttonTop.style.opacity = "0";
-            visibility = false;
-        }
-    }
-});
 
 randomColor();

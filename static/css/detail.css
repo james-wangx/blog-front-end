@@ -108,7 +108,7 @@ blockquote > ul > li {
     width: 30px;
     height: 30px;
     padding: 0;
-    transition: background-color .5s ease-in-out, opacity 1s ease-in-out;
+    transition: background-color .5s ease-in-out, opacity 1s ease-in-out, visibility 1s ease-in-out;
     opacity: 0;
     visibility: hidden;
     /* visibility: visible; */

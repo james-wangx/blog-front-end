@@ -57,20 +57,20 @@ hr {
     margin-left: 10px;
 }
 
-#nav a {
+#nav li a {
     font-size: 22px;
     line-height: 40px;
 }
 
-#nav a:link {
+#nav li a:link {
     color: dimgray;
 }
 
-#nav a:visited {
+#nav li a:visited {
     color: dimgray;
 }
 
-#nav a:hover {
+#nav li a:hover {
     color: black;
 }
 
@@ -101,23 +101,23 @@ hr {
     box-shadow: 0 0 5px dodgerblue;
 }
 
-.button {
+.login {
     float: right;
-    margin-top: 3px;
+    margin-top: 8px;
     margin-left: 10px;
 }
 
-.button button {
+.login a {
     font-size: 17px;
     padding: 4px 6px 4px 6px;
     color: white;
     border: none;
     border-radius: 10px;
     background-color: dodgerblue;
+    transition: box-shadow .5s ease-in-out;
 }
 
-.button button:active {
-    transform: scale(1.1);
+.login a:hover {
     box-shadow: 0 0 5px mediumblue;
 }
 

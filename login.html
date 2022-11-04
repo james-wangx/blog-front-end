@@ -29,14 +29,9 @@
             <label for="search">
             </label>
           </div>
-          <div class="button">
-            <button onclick="login()">登录/注册</button>
+          <div class="login">
+            <a href="login.html">登录/注册</a>
           </div>
-          <script>
-            function login() {
-              window.location.href = "login.html";
-            }
-          </script>
         </div>
       </div>
     </nav>
@@ -55,7 +50,7 @@
         <input autocomplete="off" id="password" name="password" type="password">
       </div>
       <div class="form">
-        <button type="submit">登录</button>
+        <button type="submit" onclick="doLogin()">登录</button>
       </div>
     </form>
     <div class="register">
@@ -89,4 +84,9 @@
     </div>
   </footer>
 </body>
+  <script>
+    function doLogin() {
+    
+    }
+  </script>
 </html>

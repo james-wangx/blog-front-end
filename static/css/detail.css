@@ -28,8 +28,8 @@ blockquote > ul > li {
     margin-top: 10px;
 }
 
-#condom {
-    overflow: hidden;
+#wrap {
+    overflow: auto;
     width: 1200px;
     margin: auto;
     padding-bottom: 10px;

@@ -40,19 +40,17 @@
   <!-- 登录 -->
   <div class="content">
     <div id="title">登 录</div>
-    <form method="post">
-      <div class="form">
-        <label for="username">邮&nbsp;&nbsp;&nbsp;箱</label>
-        <input autocomplete="off" id="username" name="username" type="text">
-      </div>
-      <div class="form">
-        <label for="password">密&nbsp;&nbsp;&nbsp;码</label>
-        <input autocomplete="off" id="password" name="password" type="password">
-      </div>
-      <div class="form">
-        <button type="submit" onclick="doLogin()">登录</button>
-      </div>
-    </form>
+    <div class="form">
+      <label for="username">邮&nbsp;&nbsp;&nbsp;箱</label>
+      <input autocomplete="off" id="username" name="username" type="email">
+    </div>
+    <div class="form">
+      <label for="password">密&nbsp;&nbsp;&nbsp;码</label>
+      <input autocomplete="off" id="password" name="password" type="password">
+    </div>
+    <div class="form">
+      <button onclick="login()" style="width: 320px; height: 35px" type="submit">登录</button>
+    </div>
     <div class="register">
       没有账号？<a href="register.html">注册</a>一个！
     </div>
@@ -84,9 +82,5 @@
     </div>
   </footer>
 </body>
-  <script>
-    function doLogin() {
-    
-    }
-  </script>
+<script src="static/js/login.js"></script>
 </html>

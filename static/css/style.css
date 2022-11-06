@@ -107,6 +107,10 @@ hr {
     margin-left: 10px;
 }
 
+.login select {
+    border: none;
+}
+
 .login a {
     font-size: 17px;
     padding: 4px 6px 4px 6px;

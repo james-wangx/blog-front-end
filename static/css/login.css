@@ -1,28 +1,28 @@
 label {
-    width: 67px;
-    float: left;
     font-weight: bold;
     line-height: 35px;
+    float: left;
+    width: 67px;
 }
 
 input {
+    font-size: 15px;
+    float: right;
     width: 240px;
     height: 29px;
-    float: right;
-    font-size: 15px;
     border-radius: 5px;
 }
 
 button {
-    background-color: dodgerblue;
     color: whitesmoke;
     border-radius: 5px;
+    background-color: dodgerblue;
 }
 
 footer {
-    width: 100%;
     position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
 .content {
@@ -31,9 +31,9 @@ footer {
 }
 
 #title {
-    margin-top: 150px;
     font-size: 30px;
     font-weight: bold;
+    margin-top: 150px;
     text-align: center;
 }
 
@@ -52,24 +52,19 @@ footer {
 }
 
 .code button {
-    width: 90px;
-    height: 35px;
     float: right;
-}
-
-.form:last-child button {
-    width: 320px;
+    width: 90px;
     height: 35px;
 }
 
 .register {
-    margin-top: 20px;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 .register a {
-    color: dodgerblue;
     transition: color .5s ease-in-out;
+    color: dodgerblue;
 }
 
 .register a:hover {

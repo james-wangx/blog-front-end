@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--suppress SpellCheckingInspection -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,7 +10,7 @@
   <link href="static/css/content.css" rel="stylesheet">
 
 </head>
-<body>
+<body onload="fillElement();randomColor()">
   <!-- 导航栏 -->
   <header>
     <nav>
@@ -197,7 +198,7 @@
           </ul>
         </div>
         <!-- 文章标签 -->
-        <div class="article-label">
+        <div class="article-label" onloadeddata="randomColor()">
           <div class="right-div">⚡️文章标签⚡️</div>
           <div class="labels">
             <span><a href="#">Java&nbsp;10</a></span>

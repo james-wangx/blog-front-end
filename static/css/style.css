@@ -26,55 +26,55 @@ a {
 
 footer {
     margin-top: 40px;
+    border-bottom: 3px solid dodgerblue;
     background-color: white;
     box-shadow: 0 -2px 2px gainsboro;
-    border-bottom: 3px solid dodgerblue;
 }
 
 hr {
     width: 1190px;
 }
 
-#nav {
+nav {
     width: 1190px;
     margin: auto;
 }
 
-#nav > a > img {
+nav > a > img {
     float: left;
     width: 40px;
 }
 
-#nav ul {
+nav ul {
     float: left;
     height: 40px;
     margin: 0;
     padding: 0;
 }
 
-#nav li {
+nav li {
     display: inline;
     margin-left: 10px;
 }
 
-#nav li a {
+nav li a {
     font-size: 22px;
     line-height: 40px;
 }
 
-#nav li a:link {
+nav li a:link {
     color: dimgray;
 }
 
-#nav li a:visited {
+nav li a:visited {
     color: dimgray;
 }
 
-#nav li a:hover {
+nav li a:hover {
     color: black;
 }
 
-#nav > div {
+nav > div {
     float: right;
 }
 
@@ -90,9 +90,9 @@ hr {
     padding-right: 4px;
     padding-left: 4px;
     transition: width .5s ease-in-out;
-    border: 1px solid #d6deee;
+    border: 1px solid gainsboro;
     border-radius: 10px;
-    box-shadow: 0 0 5px #d6deee;
+    box-shadow: 0 0 5px gainsboro;
 }
 
 #search:focus {
@@ -114,11 +114,11 @@ hr {
 .login a {
     font-size: 17px;
     padding: 4px 6px 4px 6px;
+    transition: box-shadow .5s ease-in-out;
     color: white;
     border: none;
     border-radius: 10px;
     background-color: dodgerblue;
-    transition: box-shadow .5s ease-in-out;
 }
 
 .login a:hover {

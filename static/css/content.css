@@ -167,7 +167,6 @@
 }
 
 .labels a {
-    text-decoration: none;
     /* 强制继承 span 的颜色 */
     color: inherit !important;
     font-size: 12px;

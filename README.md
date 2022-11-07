@@ -1,4 +1,4 @@
-# Blog front 博客前端
+# Blog front end 博客前端
 
 ## 一、全局设计
 

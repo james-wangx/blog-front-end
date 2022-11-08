@@ -114,7 +114,7 @@ blockquote > ul > li {
     border: none;
     border-radius: 10px;
     background-color: white;
-    background-image: url("../images/backtop.png");
+    background-image: url("../images/icons/backtop.png");
     background-size: 30px 30px;
     box-shadow: 0 0 5px gainsboro;
 }

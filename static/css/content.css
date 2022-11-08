@@ -168,8 +168,8 @@
 
 .labels a {
     /* 强制继承 span 的颜色 */
-    color: inherit !important;
     font-size: 12px;
+    color: inherit !important;
 }
 
 .labels a:link {
@@ -195,7 +195,7 @@
 }
 
 .pages ul {
-    /* font-size: 0; */
+    font-size: 0;
     margin: 0;
     padding: 0;
 }

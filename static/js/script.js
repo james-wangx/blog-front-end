@@ -10,7 +10,7 @@ if (itemLogin === "true") {
     `;
     // 点击选项退出登录
     let select = divLogin.querySelector("select");
-    select.onchange = function () {
+    select.onchange = () => {
         if (select.value === '2') {
             if (window.confirm("确认退出登录？")) {
                 localStorage.removeItem("login");
@@ -89,6 +89,7 @@ function login() {
 
     if (username !== "admin@codelife.top" || password !== "admin") {
         window.alert("用户名或密码错误！");
+        location.reload();
     } else {
         localStorage.setItem("login", "true");
         window.alert("登录成功！");

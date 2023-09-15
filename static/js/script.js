@@ -1,7 +1,6 @@
 // noinspection HtmlUnknownTarget
-
-let itemLogin = localStorage.getItem("login");
-let divLogin = document.querySelector(".login");
+const itemLogin = localStorage.getItem("login");
+const divLogin = document.querySelector(".login");
 if (itemLogin === "true") {
     divLogin.innerHTML = `<select>
                               <option value="1">Admin</option>
@@ -9,7 +8,7 @@ if (itemLogin === "true") {
                           </select>
     `;
     // 点击选项退出登录
-    let select = divLogin.querySelector("select");
+    const select = divLogin.querySelector("select");
     select.onchange = () => {
         if (select.value === '2') {
             if (window.confirm("确认退出登录？")) {
@@ -24,11 +23,10 @@ if (itemLogin === "true") {
     divLogin.innerHTML = "<a href='login.html'>登录/注册</a>"
 }
 
-
 /**
  * 为标签生成随机颜色
  */
-function randomColor() {
+const randomColor = () => {
     const colorList = ["#f7c7c7", "#f7dfc7", "#f7f7c7", "#dff7c7", "#c7f7c7", "#c7f7df", "#c7f7f7", "#c7dff7",
         "#c7c7f7", "#dfc7f7", "#f7c7f7", "#f7c7df"];
     let labelList = document.querySelectorAll(".article-label  span");
@@ -37,11 +35,10 @@ function randomColor() {
     }
 }
 
-
 /**
  * 控制返回顶部按钮的显示
  */
-function show() {
+const show = () => {
     let buttonTop = document.getElementById("back-top");
     let visibility = false;
 
@@ -66,14 +63,14 @@ function show() {
 /**
  * 单击按钮返回顶部
  */
-function backTop() {
+const backTop = () => {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
 
 /**
  * 验证是否已登录
  */
-function verifyLogin() {
+const verifyLogin = () => {
     if (localStorage.getItem("login") === "true") {
         window.alert("你已经登录了，请先退出登录！");
         location.href = "index.html";
@@ -83,7 +80,7 @@ function verifyLogin() {
 /**
  * 点击按钮登录
  */
-function login() {
+const login = () => {
     let username = document.getElementById("username").value;
     let password = document.getElementById("password").value;
 
